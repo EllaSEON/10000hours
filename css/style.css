@@ -1,0 +1,114 @@
+*{
+  box-sizing:border-box;
+}
+a{
+  text-decoration:none !important;
+}
+body{
+background:#5B2386;
+  /* 가운데 정렬 */
+text-align:center;
+/* margin:0 auto가 안된이유는 margin이 없어서 안됨.  */
+/* margin:0 auto; */
+}
+h1.tit-timelaw{
+  margin-top:125px;
+  position: relative;
+  top:8.36%;
+  }
+.tit-timelaw img:nth-child(1){
+  width:564;
+  height:112px;
+}
+.tit-timelaw img:nth-child(2){
+  /* 이미지 태그에 position:absolute주면 display:inline-block이 됨 */
+  position:absolute;
+  display:block;
+  left:50%;
+  transform:translate(
+    -50%,-50%
+  );
+  top:50%;
+  width:221px;
+  height:225px;
+}
+main .img-txt{
+  margin-top:66px;
+    
+}
+main .main-quotes{
+  margin-top:78px;
+  position:relative;
+  font-size:18px;
+  line-height:24px;
+  color:white;
+}
+main .txt-desc{
+  position:absolute;
+  display:block;
+  left:50%;
+  transform:translate(
+    -50%,-50%
+  );
+  top:50%;
+}
+main strong{
+  font-size:24px;
+  font-weight:bold;
+}
+.cont-inp{
+  margin-top:102px;
+  color:white;
+  font-size:24px;
+}
+form input{
+  width:228px;
+  height:57px;
+  border-radius: 7px;
+}
+form .txt-wannabe{
+  margin-bottom: 20px;
+}
+input::placeholder{
+  text-align:center;
+  color:#BABCBE;
+  font-size:24px;
+  font-weight:bold;
+}
+button{
+  color:#5B2386;
+  font-size:24px;
+  font-weight:bold;
+  padding:21px 49px;
+  border-radius: 56px;
+  background:#FCEE21;
+}
+form button{
+  margin-top:115px;
+}
+form img{
+  vertical-align:bottom;
+}
+.blind{
+  display:none;
+}
+#result{
+  margin-top:171px;
+  color:white;
+  font-size:24px;
+}
+section .txt-wannabe{
+  margin-bottom:65px;
+}
+.btn-go{
+  margin: 127px 18px 130px 0;
+}
+.btn-share{
+  background:white;
+}
+footer .txt-footer{
+  margin-top:20px;
+  font-size:12px;
+  line-height:17.38px;
+  color:white;
+}
