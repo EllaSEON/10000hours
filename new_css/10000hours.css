@@ -125,6 +125,11 @@ form img{
 .content-second-sentence p{
  margin:24px;
 }
+.content-second-sentence strong{
+  font-size:72px;
+  font-weight:700;
+  font-family: 'GmarketSansBold';
+}
 .button-result{
   margin-top:151px;
 }
