@@ -6,10 +6,7 @@ a{
 }
 body{
 background:#5B2386;
-  /* 가운데 정렬 */
 text-align:center;
-/* margin:0 auto가 안된이유는 margin이 없어서 안됨.  */
-/* margin:0 auto; */
 }
 h1.tit-timelaw{
   margin-top:125px;
