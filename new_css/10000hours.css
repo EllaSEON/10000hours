@@ -129,7 +129,7 @@ form img{
   }
 }
 .content-second-sentence .result-text .loading{
-  animation:rotate_image 2s linear infinite;
+  animation:rotate_image 1.5s linear infinite;
 }
 .content-second-sentence p{
  margin:24px;
