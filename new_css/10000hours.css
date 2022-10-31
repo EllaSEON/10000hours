@@ -102,6 +102,7 @@ body{
   width:228px;
   height:57px;
   border-radius:7px;
+  color:black;
 }
 .content-input input::placeholder{
   color:#BABCBE;
@@ -121,6 +122,14 @@ form img{
   margin-top:171px;
   font-size:24px;
   font-family: 'GmarketSansMedium';
+}
+@keyframes rotate_image{
+  100% {
+      transform: rotate(360deg);
+  }
+}
+.content-second-sentence .result-text .loading{
+  animation:rotate_image 2s linear infinite;
 }
 .content-second-sentence p{
  margin:24px;
@@ -146,4 +155,30 @@ form img{
   font-size: 12px;
   line-height: 17px;
   font-family: 'Noto Sans KR';
+}
+.modal{
+  /* position:fixed; */
+	background:#fff;
+  width:800px;
+  height:800px;
+  margin: 0 auto;
+  text-align:center;
+  border-radius:30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.modal h2{
+  padding-top:76px;
+  color:#5B2386;
+  font-size:96px;
+  font-weight:700;
+  line-height: 106px;
+}
+.modal p{
+  color:#5B2386;
+  font-size:36px;
+  font-weight:700;
+  line-height:40px;
+}
+.modal img{
+  margin:74px 0;
 }
